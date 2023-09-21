@@ -1,0 +1,197 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    height: 100%;
+}
+.all{
+    width: 100%;
+}
+/* page-1-start */
+.page-1{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+}
+.page-1-top{
+    height: 50vh;
+    width: inherit;
+    background-image: url(Images/horses.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page-1-bottom{
+    height: 50vh;
+    width: inherit;
+
+}
+.page-1-bottom h2{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.page-1-bottom-all{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.page-1-bottom-left{
+    width: 50vw;
+    height: 100%;
+   background-image: url(Images/bike1.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.page-1-bottom-left h3,
+.page-1-bottom-right h3{
+    text-align: center;
+}
+.page-1-bottom-left p,
+.page-1-bottom-right p{
+    padding: 0 2vw;
+    font-size: 2vmin;
+}
+.page-1-bottom-right{
+    width: 50vw;
+    height: 100%;
+    background-image: url(Images/bike2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* page-1-end */
+
+
+/* page-2-start */
+.page-2{
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+.page-2-top{
+    height: 50vh;
+    width: inherit;
+    background-color: lightpink;
+}
+.page-2-top h3{
+    font-size: 4vmin;
+    width: 100%;
+    text-align: center;
+    padding-top: 7vmin;
+    text-transform: uppercase;
+
+}
+.page-2-top h4{
+    text-align: center;
+    padding-top: 3vmin;
+
+}
+.page-2-top button{
+    width: 20vw;
+    height: 5vh;
+    margin-left: 40%;
+}
+.page-2-top p{
+    padding: 0 10vmin;
+    font-size: 3vmin;
+}
+
+
+
+
+
+.page-2-bottom{
+    height: 50vh;
+    width: inherit;
+}
+/* page-2-end */
+
+
+.page-3{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: lightpink;
+}
+.page-4{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: lightcoral;
+}
+.page-5{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: aqua;
+}
+.page-6{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: blue;
+}
+
+/* responsive */
+@media (max-width:600px) {
+    .page-1-bottom h2{
+        font-size: 5vmin;
+    }
+
+
+
+    .page-2-top{
+        padding-top: 3vmin;
+    }
+    .page-2-top p{
+        padding: 0 10vmin;
+        font-size: 3vmin;
+    }
+    .page-2-top h4{
+        padding-top: 0vmin;
+    
+    }
+    .page-2-top h3{
+        font-size: 5vmin;
+    }
+    .page-2-top button{
+        font-size: 1vmin;
+        height: 6vh;
+
+    }
+
+    
+}
+@media (min-height:100px) {
+    .page-1-top{
+        background-position: 50% 40%;
+    }
+    .page-1-bottom h2{
+        font-size: 5vmin;
+    }
+    .page-1-bottom-left{
+
+    }
+    .page-1-bottom-{
+        
+    }
+    .page-1-bottom-left h3,
+    .page-1-bottom-right h3{
+        font-size: 5vmin;
+    }
+    .page-1-bottom-left p,
+    .page-1-bottom-right p{
+        font-size: 3.2vmin;
+        line-height: 3vmin;
+    }
+
+    .page-2-top p{
+        padding: 0 10vmin;
+        padding-top: 2vmin;
+        font-size: 3vmin;
+    }
+    .page-2-top button{
+        height: 6vh;
+        font-size: 3.5vmin;
+    }
+}
