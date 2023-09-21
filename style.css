@@ -141,7 +141,12 @@ html,body{
 
 
     .page-2-top{
-        padding-top: 3vmin;
+        height: 30vh;
+
+    }
+    .page-2-bottom{
+        height: 70vh;
+        background-color: red;
     }
     .page-2-top p{
         padding: 0 10vmin;
@@ -156,7 +161,7 @@ html,body{
     }
     .page-2-top button{
         font-size: 1vmin;
-        height: 6vh;
+        height: 4vh;
 
     }
 
